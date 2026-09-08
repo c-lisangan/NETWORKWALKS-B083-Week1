@@ -1,5 +1,3 @@
-Here is the entire `README.md` document in a single code block. Copy and paste everything below directly into your GitHub web editor:
-
 ```markdown
 # Cybersecurity Lab Setup Report — Week 1 (WK1-PM1)
 
