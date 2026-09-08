@@ -1,4 +1,3 @@
-```markdown
 # Cybersecurity Lab Setup Report — Week 1 (WK1-PM1)
 
 **Created By:** Christ Evvert Lisangan  
@@ -119,17 +118,26 @@ ping 10.0.0.10  # Windows 10 Target VM
 ## 6. Screenshots & Evidence
 
 ### Screenshot 1: VirtualBox NAT Network Configuration (10.0.0.0/24)
+<img width="959" height="503" alt="screenshot1-natnetwork" src="https://github.com/user-attachments/assets/58c3528a-d9d2-4e8c-8701-fd5f8da18228" />
+
 
 ### Screenshot 2: Kali Linux Network Settings & Static IP (10.0.0.2)
+<img width="359" height="286" alt="screenshot2-kali-ip" src="https://github.com/user-attachments/assets/031c6392-673a-46cf-8425-f5e4a6504fe5" />
+
 
 ### Screenshot 3: Terminal Ping Test & Internet Connectivity Verification
 
+<img width="346" height="120" alt="screenshot3-ping-google" src="https://github.com/user-attachments/assets/68369d6f-69e5-435c-bc66-220ea5b42a72" />
+
 ### Screenshot 4: Terminal Ping Test to Android OS (10.0.0.9)
+<img width="260" height="105" alt="screenshot4-ping-android" src="https://github.com/user-attachments/assets/0536254e-ea50-4197-a9d6-7aeb9bbd8397" />
+
 
 ### Screenshot 5: Terminal Ping Test & Firewall Troubleshooting (Windows 10)
+<img width="311" height="260" alt="screenshot5-win10-firewall" src="https://github.com/user-attachments/assets/cebf8e5f-7b7f-441f-a8c3-8ffce0e9d4ad" />
 
 
-Initial test resulted in 100% packet loss due to Windows Defender Firewall dropping ICMP requests. Disabling the Private Network Firewall resolved the issue and allowed successful ping responses.
+Initial test resulted in 100% packet loss due to Windows Defender Firewall dropping ICMP requests. By disabling the Windows Defender Firewall, the issue was resolved ping is successful.
 
 ```
 
